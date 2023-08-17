@@ -4,7 +4,8 @@ This project uses several Arduino libraries to demonstrate bio-hybrid sensing wi
 
 LMP91000 connections / Arduino Connections
 
-DGND / GND;
+DGND / GND
+
 MENB / GND
 SCL / SCL (with 10k pull-up resistor)
 SDA / SDA (with 10k pull-up resistor)
