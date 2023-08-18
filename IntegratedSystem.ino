@@ -11,7 +11,7 @@
 Adafruit_TMP117  tmp117;
 LMP91000 pStat = LMP91000();
 
-int16_t opVolt =5000; //milliVolts if working with a 3.3V device
+int16_t opVolt =3300; //milliVolts if working with a 3.3V device
 uint8_t resolution = 10; //10-bits
 
   void setup()
@@ -191,7 +191,6 @@ int error = bioHub.configBpm(MODE_ONE);
       float HR = (body.heartRate);
       float Otwo = (body.oxygen);
       PhyphoxBLE::write(current,HR,Otwo,temp.temperature);
-      delay(fs);
       
     }
   }
