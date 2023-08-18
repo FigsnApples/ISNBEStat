@@ -123,8 +123,8 @@ void runAmp(uint8_t user_gain, int16_t pre_stepV, uint32_t quietTime, int16_t v1
   digitalWrite(LEDG,HIGH);
 
 //Reset pin, MFIO pin
-int resPin = 8;
-int mfioPin = 7;
+int resPin = 3;
+int mfioPin = 2;
 
 // Takes address, reset pin, and MFIO pin.
 SparkFun_Bio_Sensor_Hub bioHub(resPin, mfioPin); 
