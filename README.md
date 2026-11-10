@@ -2,6 +2,8 @@
 
 This project uses several Arduino libraries to demonstrate bio-hybrid sensing with comibnations of electrochemical and biophysical sensing features. The primary objective is to utlizie this rigid-flex PCB as a pacifier for saliva sampling plus vital sign aquistion from the mouth region.
 
+Per 2026, there is a publicly available invention disclosure: https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2026198525&_cid=P21-MUWVVN-71712-1
+
 LMP91000 connections / Arduino Connections
 
 DGND / GND
